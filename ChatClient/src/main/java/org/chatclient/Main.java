@@ -17,13 +17,15 @@ public class Main {
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
             System.out.println("Connected to server: " + serverIP + ":" + port);
+            ReadingHandler readingHandler = new ReadingHandler(reader);
+            readingHandler.start();
 
             while (true) {
                 String message = in.nextLine();
                 writer.println(message);
-//                        System.out.println(reader.readLine());
 
                 if (message.equalsIgnoreCase("bye")) {
+                    readingHandler.interrupt();
                     break;
                 }
             }
