@@ -1,0 +1,543 @@
+2025-01-13 16:34:15 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.6 and port 8080
+2025-01-13 16:35:48 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.6 and port 8080
+2025-01-13 16:36:02 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.6
+2025-01-14 15:53:01 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 15:53:10 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 15:53:13 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 15:54:07 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler: Connection reset
+2025-01-14 18:15:56 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:18:17 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:18:24 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:18:31 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:18:36 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:18:36 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:18:36 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:18:36 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:20:52 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:21:01 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:21:04 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:21:04 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:21:49 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:22:02 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:22:04 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:22:04 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:22:44 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:22:53 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:22:59 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:22:59 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:23:07 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:23:14 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:24:50 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:24:50 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:27:43 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:27:55 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:31:10 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:31:31 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:31:36 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:31:47 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:35:54 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:36:10 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:36:28 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:37:46 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:37:46 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:38:50 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:38:59 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:39:01 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:39:01 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:39:32 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:39:42 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:39:49 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:163) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.beginRead(NioSocketImpl.java:226) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:294) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:39:49 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:40:28 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:40:36 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:41:06 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:41:11 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:42:18 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:42:26 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:42:31 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:42:31 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:44:24 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:44:31 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 18:44:36 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 18:44:36 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 18:44:50 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 18:44:55 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:33:42 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 19:33:50 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:33:54 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:34:30 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 19:34:30 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 19:34:30 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 19:34:30 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 19:35:50 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 19:35:59 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:37:06 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 19:37:46 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 19:37:57 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:38:01 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:38:58 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 19:38:58 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:39) [classes/:?]
+2025-01-14 19:38:58 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 19:38:58 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 19:49:17 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 19:49:26 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:49:30 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:50:04 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 19:59:02 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 19:59:08 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 19:59:14 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 20:00:58 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:44) [classes/:?]
+2025-01-14 20:00:58 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:44) [classes/:?]
+2025-01-14 20:00:58 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 20:00:58 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:02:22 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 21:02:30 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 21:02:36 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 21:04:28 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:44) [classes/:?]
+2025-01-14 21:04:28 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:04:33 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8
+2025-01-14 21:05:03 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:44) [classes/:?]
+2025-01-14 21:05:03 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:05:03 [Thread-2] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:44) [classes/:?]
+2025-01-14 21:05:03 [Thread-2] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:35:35 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 21:35:40 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8:59561
+2025-01-14 21:35:44 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8:59565
+2025-01-14 21:36:12 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:43) [classes/:?]
+2025-01-14 21:36:12 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:36:12 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:43) [classes/:?]
+2025-01-14 21:36:12 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:36:57 [main] INFO  org.chatserver.Server - Server is listening on host 192.168.100.8 and port 8080
+2025-01-14 21:37:00 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8:59573
+2025-01-14 21:37:03 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8:59577
+2025-01-14 21:39:13 [Thread-1] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:43) [classes/:?]
+2025-01-14 21:39:13 [Thread-1] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:39:17 [main] INFO  org.chatserver.Server - New client connected: 192.168.100.8:59587
+2025-01-14 21:39:24 [Thread-0] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:43) [classes/:?]
+2025-01-14 21:39:24 [Thread-0] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
+2025-01-14 21:39:24 [Thread-2] ERROR org.chatserver.ClientHandler - Error in ClientHandler
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796) ~[?:?]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at org.chatserver.ClientHandler.run(ClientHandler.java:43) [classes/:?]
+2025-01-14 21:39:24 [Thread-2] INFO  org.chatserver.ClientHandler - ClientHandler for 192.168.100.8 was closed.
